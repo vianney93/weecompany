@@ -1,0 +1,213 @@
+@font-face {
+    font-family: latoBold;
+    font-style: normal;
+    src: url(./../../../assets/fonts/Lato-Bold.ttf);
+}
+
+@font-face {
+    font-family: latoRegular;
+    font-style: normal;
+    src: url(./../../../assets/fonts/Lato-Regular.ttf);
+}
+
+nav {
+    height: 133px;
+    background-color: transparent!important;
+    z-index: 10;
+    position: fixed;
+    width: 100%;
+}
+
+.containerVideo {
+    min-height: 100%;
+}
+
+
+/*.backVideo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: 0;
+    height: 100%;
+}*/
+
+.backVideo {
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 100%
+}
+
+.mainLogo {
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.mainLogo img {
+    width: 100%;
+}
+
+.iconMenu {
+    position: inherit;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 51px;
+}
+
+.txtCenter {
+    text-align: center;
+}
+
+.floatRight {
+    float: right;
+}
+
+.height100 {
+    height: 100%;
+}
+
+.boxMainText {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    max-width: 70%;
+}
+
+.fontBold {
+    font-family: latoBold;
+}
+
+.fontRegular {
+    font-family: latoRegular;
+}
+
+.title {
+    font-size: 47px;
+    line-height: 60px;
+}
+
+.subtitle {
+    font-size: 24px;
+    margin-bottom: 110px;
+    line-height: 25px;
+}
+
+.subtitleBlog {
+    font-size: 24px;
+    line-height: 25px;
+}
+
+.margin40 {
+    margin-top: 40px;
+}
+
+.btnWhite {
+    background: transparent;
+    color: white;
+    font-size: 32px;
+    border: solid white 1px;
+    border-radius: 10px;
+    padding: 0 40px 0 40px;
+}
+
+.alianzaLogo {
+    width: 60%;
+    margin-left: 24px;
+}
+
+.txtAlianza {
+    margin-top: 7%;
+}
+
+.container2 {
+    background: #070606;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 65vh);
+    color: white;
+    margin-top: -1px;
+    height: 85%;
+}
+
+.container2 {
+    height: 85%;
+}
+
+.container3 {
+    background: #070606;
+    clip-path: polygon(0 0, 100% 24%, 100% 100%, 0 100%);
+    color: white;
+    margin-top: -1px;
+    height: 85%;
+    padding-top: 14%;
+}
+
+.u-margin-short {
+    margin-bottom: 10%;
+}
+
+.u-margin-xs {
+    margin-bottom: 5%;
+}
+
+.imgFloat {
+    position: absolute;
+    bottom: -40px;
+    width: 100%;
+    clip-path: polygon(0% 40%, 100% 40%, 100% 100%, 0 100%);
+    border-bottom-right-radius: 100px;
+}
+
+.contElement {
+    background-color: #EDEDED;
+}
+
+.imgAlianza {
+    border-radius: 0 0 100px 0;
+}
+
+.btnGray {
+    background: #E8E8E8;
+    color: #6E6E6E;
+    font-size: 20px;
+}
+
+.imgBlog {
+    border-radius: 0 0 63px 0;
+}
+
+.sizeProperty {
+    font-size: 15px;
+}
+
+.backgroundBlack {
+    background-color: black;
+}
+
+.colorWhite {
+    color: white;
+}
+
+.containerFooter {
+    border-top: solid 1px white;
+    padding-top: 2%;
+    padding-bottom: 12px;
+}
+
+.separateLine {
+    border-bottom: solid black 1px;
+    padding: 40px;
+    margin: -46px 52px 46px 0px;
+}
+
+@supports(object-fit: cover) {
+    .backVideo {
+        height: 100%;
+        object-fit: cover;
+        object-position: center center;
+    }
+}
